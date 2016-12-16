@@ -12,7 +12,7 @@ video {
     height: auto;
     z-index: -100;
     transform: translateX(-50%) translateY(-50%);
- background: url('//demosthenes.info/assets/images/polina.jpg') no-repeat;
+ background: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/polina.jpg') no-repeat;
   background-size: cover;
   transition: 1s opacity;
 }
@@ -66,9 +66,9 @@ a:hover{
   background:rgba(0,0,0,0.9);
 }
 @media screen and (max-width: 500px) { 
-  div{width:70%;} 
+  #polina {width:70%;} 
 }
 @media screen and (max-device-width: 800px) {
-  html { background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/polina.jpg) #000 no-repeat center center fixed; }
+  html { background: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/polina.jpg') #000 no-repeat center center fixed; }
   #bgvid { display: none; }
 }
